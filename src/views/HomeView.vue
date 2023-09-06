@@ -1,5 +1,7 @@
 <template>
-  <hello-world />
+  <div>
+    <HelloWorld/>
+  </div>
 </template>
 
 <script>
@@ -10,6 +12,8 @@ export default {
 
   components: {
     HelloWorld
+  },
+  methods: {
   }
 }
 </script>
